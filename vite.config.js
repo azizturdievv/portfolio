@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['react-dom/client'],
+      external: ['react-dom/client'], // "react-dom/client" modulini tashqi bog'liq qilib belgilash
     },
   },
 })
