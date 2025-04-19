@@ -1,9 +1,6 @@
 [build]
-  base = "."
-  publish = "build"
-  command = "npm install --legacy-peer-deps  "
+  command = "npm run build"
+  publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "v22.14.0"
-[build.environment]
-  GO_VERSION = "1.19.0"
+  NODE_VERSION = "18.17.0"
