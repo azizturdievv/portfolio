@@ -84,7 +84,7 @@ const WelcomeScreen = ({ onLoadingComplete }) => {
       y: -20,
       opacity: 0,
       transition: {
-        duration: 0,
+        duration: 0.1,
         ease: "easeInOut"
       }
     }
